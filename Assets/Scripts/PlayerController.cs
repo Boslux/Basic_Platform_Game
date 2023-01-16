@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PlayerController : MonoBehaviour
@@ -94,6 +95,11 @@ public class PlayerController : MonoBehaviour
         {
             cls.gameObject.GetComponent<ButtonController>().isOn = false;
         }
+        if (cls.gameObject.CompareTag("Enemy"))
+        {
+            Destroy(gameObject);
+            SceneManager.LoadScene(0);
+        }
     }
     private void OnTriggerEnter2D(Collider2D cls)
     {
@@ -101,7 +107,8 @@ public class PlayerController : MonoBehaviour
         {
             score++;
             Destroy(cls.gameObject);
-        }  
+        }
+
     }
 
 }

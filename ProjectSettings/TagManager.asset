@@ -9,6 +9,8 @@ TagManager:
   - Button
   - Gold
   - fire
+  - Enemy
+  - EnemyDestroyer
   layers:
   - Default
   - TransparentFX
