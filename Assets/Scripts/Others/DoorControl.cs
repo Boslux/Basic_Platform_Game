@@ -19,6 +19,7 @@ public class DoorControl : MonoBehaviour
         if (doorOpen==true)
         {
             animator.SetTrigger("doorOpen");
+            Destroy(gameObject,1.27f);
            
         }
     }

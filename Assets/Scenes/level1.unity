@@ -3826,7 +3826,7 @@ TilemapCollider2D:
   m_GameObject: {fileID: 1519268042}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 8d1d661416f2db941bfda1237894c97d, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -3846,7 +3846,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -5549090164901182112, guid: 386f46e82204db540acaa4a58602fc2a, type: 3}
       propertyPath: m_GravityScale
-      value: 2
+      value: 1.9
       objectReference: {fileID: 0}
     - target: {fileID: 2918936355539256897, guid: 386f46e82204db540acaa4a58602fc2a, type: 3}
       propertyPath: m_Name
@@ -3858,11 +3858,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2918936355539256901, guid: 386f46e82204db540acaa4a58602fc2a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.17
+      value: -17.19
       objectReference: {fileID: 0}
     - target: {fileID: 2918936355539256901, guid: 386f46e82204db540acaa4a58602fc2a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -3.39
+      value: -3.42
       objectReference: {fileID: 0}
     - target: {fileID: 2918936355539256901, guid: 386f46e82204db540acaa4a58602fc2a, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3902,11 +3902,11 @@ PrefabInstance:
       objectReference: {fileID: 5948541}
     - target: {fileID: 3263734605397232564, guid: 386f46e82204db540acaa4a58602fc2a, type: 3}
       propertyPath: speed
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3263734605397232564, guid: 386f46e82204db540acaa4a58602fc2a, type: 3}
       propertyPath: jumpPower
-      value: 6
+      value: 13
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 386f46e82204db540acaa4a58602fc2a, type: 3}
@@ -4033,6 +4033,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameController
       objectReference: {fileID: 0}
+    - target: {fileID: 1522949899041451440, guid: 72083fd8045c9904a8200b1541f40f27, type: 3}
+      propertyPath: ps
+      value: 
+      objectReference: {fileID: 11400000, guid: 4be4a9f2c50094542a3ecf2700c63ce6, type: 2}
+    - target: {fileID: 1522949899041451440, guid: 72083fd8045c9904a8200b1541f40f27, type: 3}
+      propertyPath: gold
+      value: 
+      objectReference: {fileID: 5948541}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72083fd8045c9904a8200b1541f40f27, type: 3}
 --- !u!1001 &499627295467614522
@@ -4089,6 +4097,10 @@ PrefabInstance:
     - target: {fileID: 499627294411333970, guid: 09da8a3e7acf2f849bea7825b1938e6c, type: 3}
       propertyPath: m_Name
       value: "kap\u0131"
+      objectReference: {fileID: 0}
+    - target: {fileID: 499627294411333970, guid: 09da8a3e7acf2f849bea7825b1938e6c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 499627294411333971, guid: 09da8a3e7acf2f849bea7825b1938e6c, type: 3}
       propertyPath: doorOpen
@@ -4282,6 +4294,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5509396348149602717, guid: 30f533f27ad8e3c498e9b7961dd075e7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 6.86
+      objectReference: {fileID: 0}
     - target: {fileID: 5509396348299462587, guid: 30f533f27ad8e3c498e9b7961dd075e7, type: 3}
       propertyPath: m_RootOrder
       value: 7

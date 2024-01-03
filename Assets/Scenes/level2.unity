@@ -166,7 +166,7 @@ TilemapCollider2D:
   m_GameObject: {fileID: 36511046}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 8d1d661416f2db941bfda1237894c97d, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -1053,6 +1053,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: fire
       objectReference: {fileID: 0}
+    - target: {fileID: 1095400303005774018, guid: addfe87b061b3da4fa3c5bbfbfd81ad8, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
+      objectReference: {fileID: 0}
     - target: {fileID: 1095400303005774019, guid: addfe87b061b3da4fa3c5bbfbfd81ad8, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -1175,6 +1179,10 @@ PrefabInstance:
     - target: {fileID: 1095400303005774018, guid: addfe87b061b3da4fa3c5bbfbfd81ad8, type: 3}
       propertyPath: m_Name
       value: fire (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1095400303005774018, guid: addfe87b061b3da4fa3c5bbfbfd81ad8, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 1095400303005774019, guid: addfe87b061b3da4fa3c5bbfbfd81ad8, type: 3}
       propertyPath: m_RootOrder
@@ -2405,7 +2413,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5509396348149602717, guid: 30f533f27ad8e3c498e9b7961dd075e7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.7
+      value: 8.66
       objectReference: {fileID: 0}
     - target: {fileID: 5509396348299462587, guid: 30f533f27ad8e3c498e9b7961dd075e7, type: 3}
       propertyPath: m_RootOrder
@@ -2556,6 +2564,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 127638426863698598, guid: 72083fd8045c9904a8200b1541f40f27, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 85.66699
+      objectReference: {fileID: 0}
+    - target: {fileID: 127638426863698598, guid: 72083fd8045c9904a8200b1541f40f27, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -24.099976
+      objectReference: {fileID: 0}
     - target: {fileID: 127638428250684524, guid: 72083fd8045c9904a8200b1541f40f27, type: 3}
       propertyPath: m_RootOrder
       value: 11
@@ -2753,6 +2769,10 @@ PrefabInstance:
     - target: {fileID: 1095400303005774018, guid: addfe87b061b3da4fa3c5bbfbfd81ad8, type: 3}
       propertyPath: m_Name
       value: fire (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1095400303005774018, guid: addfe87b061b3da4fa3c5bbfbfd81ad8, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 1095400303005774019, guid: addfe87b061b3da4fa3c5bbfbfd81ad8, type: 3}
       propertyPath: m_RootOrder
@@ -3046,7 +3066,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1516355686}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -3.0579977, y: 0.31955287, z: -0.17956175}
+  m_LocalPosition: {x: -3.79, y: 0.31955287, z: -0.17956175}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3155,7 +3175,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -5549090164901182112, guid: 386f46e82204db540acaa4a58602fc2a, type: 3}
       propertyPath: m_GravityScale
-      value: 2
+      value: 1.9
       objectReference: {fileID: 0}
     - target: {fileID: 2918936355539256897, guid: 386f46e82204db540acaa4a58602fc2a, type: 3}
       propertyPath: m_Name
@@ -3211,11 +3231,11 @@ PrefabInstance:
       objectReference: {fileID: 592725793}
     - target: {fileID: 3263734605397232564, guid: 386f46e82204db540acaa4a58602fc2a, type: 3}
       propertyPath: speed
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 3263734605397232564, guid: 386f46e82204db540acaa4a58602fc2a, type: 3}
       propertyPath: jumpPower
-      value: 6
+      value: 15
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 386f46e82204db540acaa4a58602fc2a, type: 3}
@@ -3234,6 +3254,10 @@ PrefabInstance:
     - target: {fileID: 1095400303005774018, guid: addfe87b061b3da4fa3c5bbfbfd81ad8, type: 3}
       propertyPath: m_Name
       value: fire (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1095400303005774018, guid: addfe87b061b3da4fa3c5bbfbfd81ad8, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 1095400303005774019, guid: addfe87b061b3da4fa3c5bbfbfd81ad8, type: 3}
       propertyPath: m_RootOrder
@@ -3358,6 +3382,10 @@ PrefabInstance:
     - target: {fileID: 1095400303005774018, guid: addfe87b061b3da4fa3c5bbfbfd81ad8, type: 3}
       propertyPath: m_Name
       value: fire (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1095400303005774018, guid: addfe87b061b3da4fa3c5bbfbfd81ad8, type: 3}
+      propertyPath: m_TagString
+      value: Enemy
       objectReference: {fileID: 0}
     - target: {fileID: 1095400303005774019, guid: addfe87b061b3da4fa3c5bbfbfd81ad8, type: 3}
       propertyPath: m_RootOrder
